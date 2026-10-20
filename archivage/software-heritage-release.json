@@ -1,0 +1,15 @@
+{
+  "name": "pilote-fessenheim-v2.0.1",
+  "message": "Pilote Fessenheim — version 2.0.1\n\nCodes initiaux avant arbitrage : R A=10/22, R B=13/22 ; alpha ordinal 0,816 et binaire 0,733.\n\nLes correctifs concernent la distribution et la verification : calcul dans out/, tests sans ZIP preexistant, Makefile python3, manifeste complet, empreinte detachee de l archive et provenance explicite. Les codes initiaux et les trois references sont conserves.\n\nPython 3.9+, bibliotheque standard uniquement. Neuf tests locaux reussis ; fichiers initiaux inchanges. Les neuf PDF officiels restent externes avec leurs empreintes.\n\nTelecharger le ZIP et son SHA-256, decompresser, puis lancer :\npython3 donnees/fessenheim/verifier.py\npython3 donnees/fessenheim/test_verification.py\n\nIl s agit de deux sessions du meme modele, sans validation humaine. Le corpus reste exploratoire. DOI Zenodo, SWHID et captures Wayback ne sont pas declares obtenus tant que leur confirmation manque.\n",
+  "target": "5054192046ca245f24628742cd62dbc1b7dde1ba",
+  "target_type": "revision",
+  "synthetic": false,
+  "author": {
+    "fullname": "Stéphane Erard <247398+stephaneerard@users.noreply.github.com>",
+    "name": "Stéphane Erard",
+    "email": "247398+stephaneerard@users.noreply.github.com"
+  },
+  "date": "2026-10-20T18:47:37+02:00",
+  "id": "f21771808d273487540004fa86916e79524ccd30",
+  "target_url": "https://archive.softwareheritage.org/api/1/revision/5054192046ca245f24628742cd62dbc1b7dde1ba/"
+}

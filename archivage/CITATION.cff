@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Citer la version 2.0.1 publiée sur Zenodo. Cette notice externe ajoute le DOI sans modifier le paquet ni son étiquette."
+type: dataset
+title: "La démocratie à l'épreuve — Pilote Fessenheim, données et vérification"
+version: 2.0.1
+repository-code: "https://github.com/stephaneerard/pilote-fessenheim"
+authors:
+  - family-names: "Erard"
+    given-names: "Stéphane"
+license: CC-BY-4.0
+abstract: "Deux lectures automatisées de 22 demandes finales, suivi de trois jalons, codes initiaux et vérification hors ligne. Données originales sous CC BY 4.0 ; logiciels sous MIT ; documents officiels de tiers exclus de ces licences."
+keywords:
+  - "Fessenheim"
+  - "CNDP"
+  - "Delta-citoyen"
+  - "reproductibilité"
+doi: 10.5281/zenodo.23505871
+url: "https://zenodo.org/records/23505871"
+date-released: "2026-10-20"

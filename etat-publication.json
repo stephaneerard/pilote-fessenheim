@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-20T16:55:21.433865+00:00",
+  "checked_utc": "2026-10-20T17:03:53.826497+00:00",
   "repository_url": "https://github.com/stephaneerard/pilote-fessenheim",
   "repository_public": true,
   "release_url": "https://github.com/stephaneerard/pilote-fessenheim/releases/tag/pilote-fessenheim-v2.0.1",
@@ -13,10 +13,12 @@
   "software_heritage": {
     "request_id": 2566534,
     "request_status": "accepted",
-    "task_status": "running",
-    "snapshot_swhid": null,
-    "release_swhid": null,
-    "archive_confirmed": false
+    "task_status": "succeeded",
+    "snapshot_swhid": "swh:1:snp:8a61d88f9a909427f7fe15f45c70cde6e40c74b2",
+    "release_swhid": "swh:1:rel:f21771808d273487540004fa86916e79524ccd30",
+    "archive_confirmed": true,
+    "visit_status": "full",
+    "browse_url": "https://archive.softwareheritage.org/browse/release/f21771808d273487540004fa86916e79524ccd30/"
   },
   "wayback": {
     "capture_confirmed": false,
@@ -27,10 +29,13 @@
     "availability": "archivage/wayback-availability.json"
   },
   "zenodo": {
-    "status": "attente_authentification_utilisateur",
-    "version_doi": null,
-    "concept_doi": null,
-    "metadata": "archivage/zenodo-depot.json"
+    "status": "publie",
+    "version_doi": "10.5281/zenodo.23505871",
+    "concept_doi": "10.5281/zenodo.23505870",
+    "metadata": "archivage/zenodo-depot.json",
+    "record_url": "https://zenodo.org/records/23505871",
+    "doi_registration_confirmed": true,
+    "downloaded_archive_sha256_verified": true
   },
   "scope": "Suivi externe mutable ; les fichiers scelles et le tag de la version 2.0.1 ne sont pas modifies par ces mises a jour."
 }

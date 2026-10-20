@@ -14,5 +14,18 @@
   "failures": 0,
   "errors": 0,
   "skipped": 0,
-  "scope": "Telechargement anonyme, extraction neuve, toutes les entrees rendues en lecture seule. Le recalcul ne relit pas les PDF externes."
+  "scope": "Telechargement anonyme, extraction neuve, toutes les entrees rendues en lecture seule. Le recalcul ne relit pas les PDF externes.",
+  "anonymous_git_tag_clone": {
+    "checked": true,
+    "head_commit": "5054192046ca245f24628742cd62dbc1b7dde1ba",
+    "references_identical": true,
+    "tests": 9,
+    "failures": 0,
+    "errors": 0
+  },
+  "zenodo_public_download": {
+    "doi": "10.5281/zenodo.23505871",
+    "archive_sha256": "ed9144d9b67b8adae3a86be3bf41705f7736e772006fe509ddf6b18f2f239a89",
+    "matches_github_release": true
+  }
 }

@@ -1,0 +1,10 @@
+Suivi externe de la version 2.0.1 — 20 octobre 2026
+
+16:48:35 UTC — Release GitHub publiee, etiquette pilote-fessenheim-v2.0.1.
+16:49:07 UTC — Visite Software Heritage full ; objet de release resolu et cible verifiee.
+17:00:52 UTC — Depot Zenodo publie ; DOI de version 10.5281/zenodo.23505871, DOI de concept 10.5281/zenodo.23505870.
+Controle anonyme : ZIP GitHub et ZIP Zenodo de meme SHA-256. Neuf tests reussis depuis une extraction neuve en lecture seule et depuis un clone anonyme du tag.
+
+La notice archivage/CITATION.cff associe le DOI apres publication. Le CITATION.cff du paquet fige reste celui du scellement ; aucun fichier scelle, code initial, resultat ou tag n est remplace.
+
+Wayback : aucun accuse de capture obtenu. Tentatives HTTPS non abouties ; API de disponibilite inaccessible. Les neuf URL et leurs empreintes sont listees pour une reprise depuis un acces fonctionnel. Aucune capture n est declaree obtenue.

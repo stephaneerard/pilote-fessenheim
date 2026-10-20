@@ -4,17 +4,18 @@
   "visit_type": "git",
   "save_request_date": "2026-10-20T18:49:04.528743+02:00",
   "save_request_status": "accepted",
-  "save_task_status": "running",
-  "visit_status": "created",
+  "save_task_status": "succeeded",
+  "visit_status": "full",
   "visit_date": "2026-10-20T18:49:07.472+02:00",
   "loading_task_id": 422132638,
   "note": "",
   "from_webhook": false,
   "webhook_origin": "",
-  "snapshot_swhid": null,
+  "snapshot_swhid": "swh:1:snp:8a61d88f9a909427f7fe15f45c70cde6e40c74b2",
   "next_run": "2026-10-20T16:49:04.494846Z",
   "metadata": {
     "worker": "loader@loader-save-code-now-git-759999b57b-rv8zk"
   },
+  "snapshot_url": "https://archive.softwareheritage.org/api/1/snapshot/8a61d88f9a909427f7fe15f45c70cde6e40c74b2/",
   "request_url": "https://archive.softwareheritage.org/api/1/origin/save/2566534/"
 }

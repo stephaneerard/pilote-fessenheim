@@ -31,3 +31,12 @@ Lire [README-reproductibilite.txt](README-reproductibilite.txt), [CHANGELOG](CHA
 [Provenance A](provenance/session-A.json), [provenance B](provenance/session-B.json). Révision interne exacte du modèle, consignes complètes et liste exhaustive des pièces fournies : inconnues ; les traces retrouvées ne sont pas reconstruites artificiellement.
 
 `publication.json` est l’instantané scellé avant création de l’étiquette. Le suivi ultérieur est dans [etat-publication.json](etat-publication.json), sur la branche principale. Un DOI, un SWHID ou une capture n’est annoncé qu’après confirmation. Le premier commit conserve le paquet contrôlé avant les derniers correctifs techniques ; le suivant les documente sans modifier les codes initiaux.
+
+## Références permanentes
+
+- DOI de cette version : [10.5281/zenodo.23505871](https://doi.org/10.5281/zenodo.23505871).
+- [Notice de citation avec DOI](archivage/CITATION.cff), ajoutée après publication sans modifier la version figée.
+- Archive Software Heritage : [`swh:1:rel:f21771808d273487540004fa86916e79524ccd30`](https://archive.softwareheritage.org/browse/release/f21771808d273487540004fa86916e79524ccd30/), pointant vers le commit du tag.
+- [Captures Wayback à reprendre](archivage/wayback-captures-a-demander.csv) : neuf URL, aucune capture confirmée depuis cet environnement.
+
+Le ZIP retéléchargé anonymement depuis Zenodo est identique à la release GitHub. Les mises à jour de ce suivi sont hors du manifeste figé, journalisées dans [archivage/JOURNAL](archivage/JOURNAL).
