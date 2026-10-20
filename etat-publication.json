@@ -1,0 +1,36 @@
+{
+  "checked_utc": "2026-10-20T16:55:21.433865+00:00",
+  "repository_url": "https://github.com/stephaneerard/pilote-fessenheim",
+  "repository_public": true,
+  "release_url": "https://github.com/stephaneerard/pilote-fessenheim/releases/tag/pilote-fessenheim-v2.0.1",
+  "tag": "pilote-fessenheim-v2.0.1",
+  "tag_object": "f21771808d273487540004fa86916e79524ccd30",
+  "release_commit": "5054192046ca245f24628742cd62dbc1b7dde1ba",
+  "archive_sha256": "ed9144d9b67b8adae3a86be3bf41705f7736e772006fe509ddf6b18f2f239a89",
+  "archive_bytes": 59708,
+  "publication_status": "depot_et_release_publics",
+  "verification": "archivage/verification-publique.json",
+  "software_heritage": {
+    "request_id": 2566534,
+    "request_status": "accepted",
+    "task_status": "running",
+    "snapshot_swhid": null,
+    "release_swhid": null,
+    "archive_confirmed": false
+  },
+  "wayback": {
+    "capture_confirmed": false,
+    "requested_sources": 9,
+    "requests_with_receipt": 0,
+    "reason": "Demande Save Page Now sans accuse : echec du certificat Python, puis expiration du client HTTPS systeme ; disponibilite des neuf URL non verifiable via API.",
+    "details": "archivage/wayback-system-requests.json",
+    "availability": "archivage/wayback-availability.json"
+  },
+  "zenodo": {
+    "status": "attente_authentification_utilisateur",
+    "version_doi": null,
+    "concept_doi": null,
+    "metadata": "archivage/zenodo-depot.json"
+  },
+  "scope": "Suivi externe mutable ; les fichiers scelles et le tag de la version 2.0.1 ne sont pas modifies par ces mises a jour."
+}

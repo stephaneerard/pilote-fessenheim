@@ -1,0 +1,20 @@
+{
+  "id": 2566534,
+  "origin_url": "https://github.com/stephaneerard/pilote-fessenheim",
+  "visit_type": "git",
+  "save_request_date": "2026-10-20T18:49:04.528743+02:00",
+  "save_request_status": "accepted",
+  "save_task_status": "running",
+  "visit_status": "created",
+  "visit_date": "2026-10-20T18:49:07.472+02:00",
+  "loading_task_id": 422132638,
+  "note": "",
+  "from_webhook": false,
+  "webhook_origin": "",
+  "snapshot_swhid": null,
+  "next_run": "2026-10-20T16:49:04.494846Z",
+  "metadata": {
+    "worker": "loader@loader-save-code-now-git-759999b57b-rv8zk"
+  },
+  "request_url": "https://archive.softwareheritage.org/api/1/origin/save/2566534/"
+}

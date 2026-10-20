@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "upload_type": "dataset",
+    "title": "La démocratie à l’épreuve — Pilote Fessenheim : données et vérification, version 2.0.1",
+    "creators": [
+      {
+        "name": "Erard, Stéphane"
+      }
+    ],
+    "description": "<p>Paquet documentaire Fessenheim, protocole 2.0 et distribution 2.0.1, avant arbitrage. Deux sessions du même modèle ont codé les 22 demandes finales numérotées du compte rendu CNDP : R A=10/22 et R B=13/22 ; alpha ordinal 0,816, alpha binaire 0,733. S suit trois jalons de concertation à deux horizons et sous deux régimes de preuve.</p><p>Le ZIP contient les données originales, protocoles, registres, références et logiciels de vérification. Python 3.9 ou ultérieur, bibliothèque standard. Les sorties sont comparées octet par octet, sans modification des entrées. Les neuf PDF officiels restent externes ; leurs URL et SHA-256 sont publiés. Données originales CC BY 4.0, logiciels MIT, documents de tiers exclus.</p><p>Il ne s’agit pas d’une validation humaine, d’un corpus représentatif ni d’une inférence causale. La provenance indique les informations connues et inconnues sans reconstituer des consignes manquantes.</p>",
+    "access_right": "open",
+    "license": "cc-by-4.0",
+    "version": "2.0.1",
+    "publication_date": "2026-10-20",
+    "keywords": [
+      "Fessenheim",
+      "CNDP",
+      "Delta-citoyen",
+      "reproductibilité",
+      "participation"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/stephaneerard/pilote-fessenheim/tree/pilote-fessenheim-v2.0.1",
+        "relation": "isSupplementTo"
+      }
+    ],
+    "notes": "Archive de la release pilote-fessenheim-v2.0.1. Le fichier SHA-256 détaché identifie exactement le ZIP diffusé ; la reconstruction avec une autre version de Python/zlib peut changer ses octets."
+  }
+}

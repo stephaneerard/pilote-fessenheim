@@ -1,0 +1,18 @@
+{
+  "checked_utc": "2026-10-20T16:55:21.432855+00:00",
+  "download_url": "https://github.com/stephaneerard/pilote-fessenheim/releases/download/pilote-fessenheim-v2.0.1/paquet-verification.zip",
+  "archive_sha256": "ed9144d9b67b8adae3a86be3bf41705f7736e772006fe509ddf6b18f2f239a89",
+  "sealed_files_checked": 34,
+  "readonly_input_files": 35,
+  "all_inputs_unchanged": true,
+  "references_identical_byte_for_byte": [
+    "resultats.json",
+    "demandes.csv",
+    "decisions.csv"
+  ],
+  "tests": 9,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "scope": "Telechargement anonyme, extraction neuve, toutes les entrees rendues en lecture seule. Le recalcul ne relit pas les PDF externes."
+}
