@@ -1,0 +1,37 @@
+{
+  "version": "2.0-S",
+  "scope": "Trois jalons du dispositif de concertation annonces dans la decision initiale puis precises dans les modalites. Ce sous-registre exploratoire ne recense pas tous les engagements techniques. La selection est retrospective et pas preregistrement prospectif.",
+  "registry_sha256": "f29a612298a6bad4fecb6e72cb7b537e98068d6dd803530b77f1be162ae96ade",
+  "dates": {
+    "6": "2025-10-07",
+    "12": "2026-04-07"
+  },
+  "regimes": [
+    "contemporain",
+    "retrospectif"
+  ],
+  "contemporain": "Preuves publiees au plus tard a l horizon. F07 et F08 appartiennent a la sequence documentaire de janvier 2026 et ne sont pas disponibles au 7 octobre 2025. F06 est exclu de ce regime. Ne pas conclure absence seulement parce qu aucune piece na ete trouvee.",
+  "retrospectif": "F06 remis le 10 aout 2026 peut attester une date de materialisation anterieure ou posterieure a l horizon. Conserver cette provenance explicite.",
+  "states": [
+    "realise",
+    "partiel",
+    "absent",
+    "U"
+  ],
+  "absence": "Necessite un fait temporel positif ou une attestation explicite, pas seulement le silence du paquet.",
+  "source_strength": "Distinguer declaration du porteur F07, constat des garants F06 et constat materiel. Une declaration ne devient pas observation independante.",
+  "rates": "Numerateur = jalons finis realises ; denominateur fixe = 3. Donner effectifs de toutes les categories et bornes documentaires si U. Ce taux nomme S_installation, pas execution de tous les engagements fermes. Les intentions initiales et dates de formalisation restent dans le registre. Aucun retard juridique deduit de ce calcul.",
+  "reliability": "Accord brut et alpha nominal par horizon et regime ; si tous les etats sont identiques et De nul, alpha indefini. Pas de fusion entre horizon et regime pour fabriquer une variation.",
+  "output_fields": [
+    "jalon_id",
+    "codeur_id",
+    "horizon_mois",
+    "regime",
+    "etat",
+    "date_evenement",
+    "source_id",
+    "page_pdf",
+    "niveau_preuve",
+    "justification"
+  ]
+}

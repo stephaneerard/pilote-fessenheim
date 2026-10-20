@@ -1,0 +1,20 @@
+{
+  "etat": "2.0 avant arbitrage",
+  "date_controle": "2026-10-20",
+  "controle": "Empreintes relevees lors de la correction de reproductibilite. Les quatre codes bruts concordent avec leurs empreintes deja publiees dans resultats.json.",
+  "sha256": {
+    "donnees/fessenheim/codes-A.csv": "195a3f5e4ad15a982772411f29001354f431f64573c6ea7605e5628a0e8f7585",
+    "donnees/fessenheim/codes-B.csv": "2cb87ef83b927935c99b899cd6701129f6bb842571a064c46cca9b99db8e516e",
+    "donnees/fessenheim/suivi-S-A.csv": "3d949f095a6f19b1598ea9d716a1d8f2cf5e2e83eca105f4f41e43e2383450af",
+    "donnees/fessenheim/suivi-S-B.csv": "c6d6921eebe55310612d2cb4f017f7e0bbaab3a28cd40f0d4f764768978b4b60",
+    "donnees/fessenheim/protocole-v2.json": "b9fc3de66e7865b602da88d9219def65be2c274a1dc27e3b1b470bf4b43008fe",
+    "donnees/fessenheim/protocole-S-v2.json": "a514a9d4096b6d85b286c8b4366f5b235487c28af18e193e7b44297ce0fb93c0",
+    "donnees/fessenheim/registre-demandes-v2.csv": "f117b4ddab6ffdbc6953a5e378ddb15f46fcd241808f6e5acaa998b052e6c5b3",
+    "donnees/fessenheim/registre-jalons-S.csv": "f29a612298a6bad4fecb6e72cb7b537e98068d6dd803530b77f1be162ae96ade",
+    "donnees/fessenheim/gel-registre.json": "fb0df09393b8235faae658094aa1b675726940ac4f5c0f56555d7168348670b1",
+    "donnees/fessenheim/resultats.json": "960ffab381c20439a4380ef23026b3b411e5d3835c6c98ecbf466983e243fece",
+    "donnees/fessenheim/note-A.txt": "428397a074e42e653a1beabbb49c9318ffdbbb374c500a72b56811a4d000f0cb",
+    "donnees/demandes.csv": "a9acae45842a0c450a8d38e4492b86d4dc031532d8d4ad561d6507848cd2f01d",
+    "donnees/decisions.csv": "7443c614aecc1f81f43f2317c476a44d13578b7a15061cf413dd8f703cb1f42e"
+  }
+}

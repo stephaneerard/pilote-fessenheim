@@ -1,0 +1,30 @@
+{
+  "package_version": "2.0.1",
+  "protocol_version": "2.0",
+  "status": "prepare_localement_non_publie",
+  "proposed_tag": "pilote-fessenheim-v2.0.1-reproductibilite",
+  "configured_repository_url": "https://github.com/stephaneerard/stephane-erard-cv",
+  "repository_public_visibility": "inconnu",
+  "release_repository_url": null,
+  "release_commit": null,
+  "tag_created": false,
+  "wayback": {
+    "status": "non_demande",
+    "captures": []
+  },
+  "software_heritage": {
+    "status": "non_demande",
+    "swhid": null
+  },
+  "zenodo": {
+    "status": "non_depose",
+    "version_doi": null,
+    "concept_doi": null
+  },
+  "licences": {
+    "original_data": "CC-BY-4.0",
+    "software": "MIT",
+    "third_party_sources": "excluded"
+  },
+  "notes": "Aucun identifiant permanent invente. Le depot configure contient aussi le site general ; choisir explicitement le depot scientifique a publier avant archivage."
+}

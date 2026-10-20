@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Citer le paquet de données Fessenheim, version 2.0.1 préparée localement ; aucun DOI n'est encore attribué. Les codes et résultats sont ceux du protocole 2.0 avant arbitrage."
+type: dataset
+title: "La démocratie à l'épreuve — Pilote Fessenheim, données et vérification"
+version: 2.0.1
+authors:
+  - family-names: "Erard"
+    given-names: "Stéphane"
+license: CC-BY-4.0
+abstract: "Deux lectures automatisées de 22 demandes finales, suivi de trois jalons, codes initiaux et vérification hors ligne. Données originales sous CC BY 4.0 ; logiciels sous MIT ; documents officiels de tiers exclus de ces licences."
+keywords:
+  - "Fessenheim"
+  - "CNDP"
+  - "Delta-citoyen"
+  - "reproductibilité"

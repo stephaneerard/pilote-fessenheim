@@ -1,0 +1,7 @@
+Consignes originales et relances du codeur A
+
+Texte exact : inconnu. Les messages ne sont pas recuperables en texte clair
+dans les journaux consultes. Aucun texte reconstruit n'est presente comme
+la consigne effectivement recue. Les criteres originaux conserves sont
+dans donnees/fessenheim/protocole-v2.json et protocole-S-v2.json.
+Ces fichiers sont scelles et diffusables dans le paquet de verification.

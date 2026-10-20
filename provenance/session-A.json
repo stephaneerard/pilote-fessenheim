@@ -1,0 +1,38 @@
+{
+  "codeur_id": "A",
+  "session_id": "01a159db-42c7-79c3-a483-e9a5689c8154",
+  "agent_path": "/root/codage_fessenheim_a",
+  "debut_trace_utc": "2026-10-20T15:08:24.877Z",
+  "fin_trace_utc": "2026-10-20T15:20:15.006Z",
+  "modeles_declares_dans_turn_context": [
+    "gpt-6.1-sol"
+  ],
+  "effort_declare": [
+    "xhigh"
+  ],
+  "revision_interne_exacte_du_modele": "inconnu",
+  "preuve_modele_et_dates": "Metadonnees du journal local de la session ; releve le 20 octobre 2026.",
+  "journal_local_sha256": "ae296af3fd5d4511235519f1896c94a58887448d23a9f3de43ec76579bd86f69",
+  "journal_complet_diffuse": false,
+  "consignes_initiales_exactes": "inconnu : non recuperables en texte clair dans les traces consultees",
+  "relances_exactes": "inconnu : non recuperables en texte clair dans les traces consultees",
+  "criteres_conserves": [
+    "donnees/fessenheim/protocole-v2.json",
+    "donnees/fessenheim/protocole-S-v2.json"
+  ],
+  "liste_exhaustive_des_pieces_fournies": "inconnu",
+  "pieces_utilisees_identifiees_par_les_codes": [
+    "F01",
+    "F03",
+    "F04",
+    "F06",
+    "F07",
+    "F08"
+  ],
+  "rendus_de_figures": "F04 pages 44, 50, 51, 53, 55, 58, 61 et 62 ; lecture attestee dans note-A.txt pour A, paquet commun declare par le protocole pour B.",
+  "sorties_originales": [
+    "donnees/fessenheim/codes-A.csv",
+    "donnees/fessenheim/suivi-S-A.csv"
+  ],
+  "limites": "Meme modele declare ; aucun test humain ou inter-familles. Les criteres conserves ne remplacent pas les consignes completes inconnues."
+}

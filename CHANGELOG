@@ -1,0 +1,29 @@
+Journal du pilote Fessenheim
+
+2.0.1 — 20 octobre 2026 — Révision locale de reproductibilité, non publiée à ce stade
+Type : correction du logiciel et du paquet ; aucune révision de règle ni recodage.
+- Le calcul écrit dans out/ et ne remplace plus les trois références publiées.
+- Les schémas CSV sont explicites ; les CSV de référence ne servent plus d'entrées.
+- Un vérificateur hors ligne contrôle les empreintes et compare les trois sorties
+  octet par octet ; les contrôles de données restent actifs avec Python -O.
+- Un manifeste public décrit toutes les dépendances et les neuf PDF officiels.
+- Les fichiers de protocole et de suivi S sont accessibles depuis la page du pilote.
+- Un ZIP autonome préserve l'arborescence ; les sources PDF restent externes.
+- La provenance indique modèle déclaré et horaires retrouvés ; consignes exactes,
+  révision interne du modèle et fourniture exhaustive des pièces restent inconnues.
+- Citation, périmètre des licences et étapes de publication sont documentés.
+- Codes A/B, suivis S A/B, registres figés, protocoles et trois références conservés.
+
+2.0 — 20 octobre 2026 — État documentaire initial avant arbitrage
+Type : protocole révisé et premier codage indépendant automatisé.
+- 22 demandes finales ; R initial A=10/22 et B=13/22.
+- Alpha ordinal 0,8158350723611352 ; alpha binaire 0,7329192546583851.
+- Trois jalons S aux horizons de six et douze mois, deux régimes de preuve.
+- L'état initial n'est pas présenté comme une release git ou un dépôt DOI existant.
+
+Règles du journal
+Correction : réparation d'une erreur de transcription, de distribution ou de code.
+Révision de règle : nouvelle version du manuel avec justification et portée.
+Recodage : nouvelles lectures identifiées ; aucun remplacement des codes initiaux.
+Archivage/publication : consigner commit, tag, capture, SWHID ou DOI effectivement
+obtenus, avec date et périmètre. Un statut prévu ne vaut pas publication.

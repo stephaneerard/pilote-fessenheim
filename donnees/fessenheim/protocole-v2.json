@@ -1,0 +1,61 @@
+{
+  "version": "2.0",
+  "date": "2026-10-20",
+  "scope": "Toutes les 22 demandes finales numerotees des sections 4.1 et 4.2 du compte rendu, pas toutes les contributions brutes.",
+  "registry_sha256": "f117b4ddab6ffdbc6953a5e378ddb15f46fcd241808f6e5acaa998b052e6c5b3",
+  "R_principal": "Part des 22 demandes avec une reponse documentaire suffisante M3 ou M4 dans le document EDF publie le 7 juillet 2025. Les codes M0 a M4 ne sont pas des conclusions de legalite.",
+  "R_legal": "Vecteur distinct des exigences de L121-13 ; presence/publication/delai, decision sur principe et conditions, principales modifications si applicables, mesures tirees du debat, transmission. Aucun devoir legal de repondre integralement a chaque demande ne sera invente.",
+  "M0": "Aucun traitement identifiable dans le paquet complet.",
+  "M1": "Mention, accord de principe, renvoi vague ou promesse de traiter ulterieurement sans information ni raison repondant a la demande actuelle.",
+  "M2": "Reponse informative ou motivation pertinente mais au moins une composante expresse de la demande demeure non traitee, differee sans raison suffisante ou sans precision demandee.",
+  "M3": "Traitement motive et verifiable de toutes les composantes expresses de la demande, avec sources precises accessibles si renvoi. Une promesse detaillee peut suffire pour une recommandation portant elle-meme sur une action future, pas pour une clarification de faits deja demandee. Un refus motive peut satisfaire sans acceptation.",
+  "M4": "M3 plus traitement explicite d une objection ou alternative pertinente. M4 est un diagnostic additionnel et non un seuil superieur obligatoire.",
+  "U": "Piece indispensable absente ou sens indecidable ; valeur manquante et jamais categorie ordinale.",
+  "R_unit_rules": [
+    "Une seule unite par numero natif 1.1 a 1.16 puis 2.1 a 2.6. Pas de scission opportuniste.",
+    "M3 requiert les composantes expresses ; ne pas exiger une expertise technique nouvelle ou une precision que la demande ne formule pas.",
+    "La simple mention du DMO ne vaut pas motif absent, mais un resume substantiel et un renvoi precis peuvent etre suffisants.",
+    "Apprecier le contenu documentaire, pas la verite scientifique definitive du projet.",
+    "Le fait que la CNDP juge des reponses partielles n est pas une note automatique pour chacune des 22 lignes."
+  ],
+  "independent_coding": {
+    "coders": 2,
+    "type": "agents automatiques distincts du meme environnement ; pas une validation humaine",
+    "no_cross_read": true,
+    "raw_codes_immutable": true,
+    "agreement_before_arbitration": true
+  },
+  "reliability": {
+    "primary": "alpha de Krippendorff ordinal sur M0 a M4 ; U manquant",
+    "ordinal_metric": "distance ordinale de Krippendorff fondee sur les frequences marginales cumulees ; M4 au-dessus de M3",
+    "secondary": "alpha nominal sur suffisant M3/M4 vs insuffisant M0/M1/M2 ; accord brut et matrice",
+    "threshold": 0.8,
+    "minimum_joint_coverage": 0.8,
+    "if_below": "Pas de conclusion stabilisee a partir du score arbitre. Publier les deux resultats, analyser les divergences, reviser le manuel puis recoder toutes les unites concernees de maniere independante ; ne pas confondre arbitrage et fiabilite.",
+    "if_undefined": "Signaler alpha indefini si absence de variation ; ne pas lui donner 1.",
+    "small_sample": "22 unites : resultat exploratoire, pas validation externe ni precision populationnelle."
+  },
+  "followup": {
+    "t0": "2025-04-07",
+    "h6": "2025-10-07",
+    "h12": "2026-04-07",
+    "contemporary": "Sources publiees avant la date horizon",
+    "retrospective": "F06 est publie le 10 aout 2026, utilisable seulement dans un tableau retrospectif distinct ; ne pas le rendre disponible artificiellement a h6/h12."
+  },
+  "S": "Sixieme dimension explicite, distincte de E. Chaque engagement possede un objet testable, une date de formulation, un horizon et une provenance. Ne pas compter a h6 un engagement formule en decembre 2025. Distinguer installation d un dispositif et execution annuelle de toutes ses activites.",
+  "E": "Obligations favorables devenues exigibles seulement ; denominateur nul NA et non zero.",
+  "held_out": [
+    "C06",
+    "C08"
+  ],
+  "output_fields": [
+    "demande_id",
+    "codeur_id",
+    "motivation",
+    "pages_pdf_reponse",
+    "presence",
+    "decision_sens",
+    "justification",
+    "limite"
+  ]
+}

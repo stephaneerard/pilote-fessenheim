@@ -1,0 +1,18 @@
+Lecture indépendante du codeur A — protocole 2.0
+
+Le registre initial comporte 22 unités et son SHA-256 concorde avec le protocole. Chaque demande est conservée en une unité. Aucun résultat du codeur B, d’arbitrage ou des garants d’août 2026 n’a été consulté pour R.
+
+Lecture : demandes F01 aux pages PDF 85–86 ; réponses F04 aux pages PDF 43–64 intégralement, avec vérification des passages complémentaires cités. Les rendus des pages 44, 50, 51, 53, 55, 58, 61 et 62 ont permis de lire les tableaux et figures absents de l’extraction. Les pages indiquées dans le CSV sont des pages PDF, non les pages imprimées.
+
+M0=0 ; M1=1 ; M2=11 ; M3=8 ; M4=2 ; U=0. R_manuel=(8+2)/22=10/22=45,45 %. Diagnostic documentaire exploratoire, sans verdict juridique ni validation scientifique des affirmations d’EDF.
+
+Principales ambiguïtés conservées sans harmonisation :
+- 1.1 : la quantification nationale et les grandes origines étrangères sont tenues pour suffisantes ; aucune ventilation étrangère par pays n’est ajoutée à la demande.
+- 1.2 : les préférences de clients et le format des lingots ne précisent pas à elles seules l’incidence métallurgique fonte/acier sur le procédé. Ce manque explicite conduit à M2.
+- 1.6 et 1.7 : les protections et contrôles opérationnels déjà décrits sont tenus pour une précision suffisante ; leur dimensionnement définitif ne constitue pas une composante distincte expressément demandée.
+- 1.13 : les exemples concrets de chaque volet ERC sont suffisants sans exiger un plan parcellaire définitif.
+- 1.14 : M4 provient du traitement de l’objection de rupture/submersion ; il n’atteste pas la validité physique de la réponse.
+- 1.15 : la comparaison économique explicite au stockage constitue l’alternative pertinente qui motive M4.
+- 2.3 : expliquer le calendrier et attribuer la publicité aux autorités reste partiel en l’absence de modalité propre de large diffusion de la PPVE.
+- 2.5 : le conditionnel est retenu comme proposition future suffisamment détaillée, car des éléments d’étude, une phase préalable et des ateliers sont indiqués ; aucune réalisation n’est présumée.
+- 2.6 : la commission pendant la concertation ne tranche pas le suivi représentatif de l’installation en exploitation ; préparer les attentes est une réponse partielle.

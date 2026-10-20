@@ -1,0 +1,8 @@
+{
+  "registry": "donnees/fessenheim/registre-demandes-v2.csv",
+  "sha256": "f117b4ddab6ffdbc6953a5e378ddb15f46fcd241808f6e5acaa998b052e6c5b3",
+  "units": 22,
+  "scope": "Demandes finales numerotees des sections 4.1 et 4.2 du compte rendu ; aucune pretention a exhaustivite des contributions brutes.",
+  "freeze_phase": "Avant lecture systematique des reponses et codages de cette version ; les trois cas ont ete commentes dans la version precedente.",
+  "created_utc": "2026-10-20T15:02:29.937194+00:00"
+}

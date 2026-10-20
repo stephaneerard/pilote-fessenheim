@@ -1,0 +1,344 @@
+{
+  "schema_version": "2.0",
+  "scope": "Toutes les 22 demandes finales numerotees des sections 4.1 et 4.2 du compte rendu, pas toutes les contributions brutes.",
+  "registry_sha256": "f117b4ddab6ffdbc6953a5e378ddb15f46fcd241808f6e5acaa998b052e6c5b3",
+  "raw_file_hashes": {
+    "codes-A.csv": "195a3f5e4ad15a982772411f29001354f431f64573c6ea7605e5628a0e8f7585",
+    "codes-B.csv": "2cb87ef83b927935c99b899cd6701129f6bb842571a064c46cca9b99db8e516e",
+    "suivi-S-A.csv": "3d949f095a6f19b1598ea9d716a1d8f2cf5e2e83eca105f4f41e43e2383450af",
+    "suivi-S-B.csv": "c6d6921eebe55310612d2cb4f017f7e0bbaab3a28cd40f0d4f764768978b4b60"
+  },
+  "R_initial": {
+    "A": {
+      "n": 22,
+      "distribution": {
+        "M1": 1,
+        "M2": 11,
+        "M3": 8,
+        "M4": 2
+      },
+      "successes": 10,
+      "unknown": 0,
+      "lower": 0.45454545454545453,
+      "upper": 0.45454545454545453
+    },
+    "B": {
+      "n": 22,
+      "distribution": {
+        "M1": 2,
+        "M2": 7,
+        "M3": 11,
+        "M4": 2
+      },
+      "successes": 13,
+      "unknown": 0,
+      "lower": 0.5909090909090909,
+      "upper": 0.5909090909090909
+    }
+  },
+  "R_by_request_type": {
+    "clarifications": {
+      "A": {
+        "n": 16,
+        "distribution": {
+          "M1": 1,
+          "M2": 9,
+          "M3": 4,
+          "M4": 2
+        },
+        "successes": 6,
+        "unknown": 0,
+        "lower": 0.375,
+        "upper": 0.375
+      },
+      "B": {
+        "n": 16,
+        "distribution": {
+          "M1": 2,
+          "M2": 7,
+          "M3": 5,
+          "M4": 2
+        },
+        "successes": 7,
+        "unknown": 0,
+        "lower": 0.4375,
+        "upper": 0.4375
+      }
+    },
+    "participation": {
+      "A": {
+        "n": 6,
+        "distribution": {
+          "M2": 2,
+          "M3": 4
+        },
+        "successes": 4,
+        "unknown": 0,
+        "lower": 0.6666666666666666,
+        "upper": 0.6666666666666666
+      },
+      "B": {
+        "n": 6,
+        "distribution": {
+          "M3": 6
+        },
+        "successes": 6,
+        "unknown": 0,
+        "lower": 1.0,
+        "upper": 1.0
+      }
+    }
+  },
+  "agreement_before_arbitration": {
+    "ordinal": {
+      "alpha": 0.8158350723611352,
+      "reason": null,
+      "units": 22,
+      "coverage": 1.0,
+      "observed_disagreement": 51.68181818181818,
+      "expected_disagreement": 280.6279069767442,
+      "raw_agreement": 0.8181818181818182,
+      "marginals": {
+        "3": 19,
+        "2": 18,
+        "1": 3,
+        "4": 4
+      }
+    },
+    "binary": {
+      "alpha": 0.7329192546583851,
+      "reason": null,
+      "units": 22,
+      "coverage": 1.0,
+      "observed_disagreement": 0.13636363636363635,
+      "expected_disagreement": 0.5105708245243129,
+      "raw_agreement": 0.8636363636363636,
+      "marginals": {
+        "1": 23,
+        "0": 21
+      }
+    },
+    "matrix": [
+      {
+        "A": "M1",
+        "B": "M1",
+        "n": 1
+      },
+      {
+        "A": "M2",
+        "B": "M1",
+        "n": 1
+      },
+      {
+        "A": "M2",
+        "B": "M2",
+        "n": 7
+      },
+      {
+        "A": "M2",
+        "B": "M3",
+        "n": 3
+      },
+      {
+        "A": "M3",
+        "B": "M3",
+        "n": 8
+      },
+      {
+        "A": "M4",
+        "B": "M4",
+        "n": 2
+      }
+    ],
+    "disagreements": [
+      "FES-1.2",
+      "FES-1.8",
+      "FES-2.3",
+      "FES-2.6"
+    ]
+  },
+  "gate": {
+    "alpha_threshold": 0.8,
+    "coverage_threshold": 0.8,
+    "passed": true,
+    "binary_secondary_below_threshold": true,
+    "consequence": "exploratory_gate_passed_not_external_validation"
+  },
+  "R_legal": {
+    "publication_in_time": {
+      "numerator": 1,
+      "denominator": 1,
+      "bilan": "2025-04-07",
+      "deadline": "2025-07-07",
+      "publication": "2025-07-07",
+      "elapsed_days": 91,
+      "sources": [
+        "F03",
+        "CNDP chronology"
+      ]
+    },
+    "scope": "Documentary check of publication and deadline only; remaining statutory requirements have their own entries in regles-juridiques.csv. No general legal compliance verdict."
+  },
+  "S_installation": [
+    {
+      "horizon_mois": 6,
+      "regime": "contemporain",
+      "coders": {
+        "A": {
+          "n": 3,
+          "distribution": {
+            "U": 3
+          },
+          "successes": 0,
+          "unknown": 3,
+          "lower": 0.0,
+          "upper": 1.0
+        },
+        "B": {
+          "n": 3,
+          "distribution": {
+            "U": 3
+          },
+          "successes": 0,
+          "unknown": 3,
+          "lower": 0.0,
+          "upper": 1.0
+        }
+      },
+      "agreement_nominal": {
+        "alpha": null,
+        "reason": "no_jointly_known_units",
+        "units": 0,
+        "coverage": 0,
+        "observed_disagreement": null,
+        "expected_disagreement": null,
+        "raw_agreement": null
+      },
+      "raw_agreement_including_joint_unknowns": 1.0
+    },
+    {
+      "horizon_mois": 6,
+      "regime": "retrospectif",
+      "coders": {
+        "A": {
+          "n": 3,
+          "distribution": {
+            "absent": 3
+          },
+          "successes": 0,
+          "unknown": 0,
+          "lower": 0.0,
+          "upper": 0.0
+        },
+        "B": {
+          "n": 3,
+          "distribution": {
+            "absent": 3
+          },
+          "successes": 0,
+          "unknown": 0,
+          "lower": 0.0,
+          "upper": 0.0
+        }
+      },
+      "agreement_nominal": {
+        "alpha": null,
+        "reason": "zero_expected_disagreement",
+        "units": 3,
+        "coverage": 1.0,
+        "observed_disagreement": 0.0,
+        "expected_disagreement": 0.0,
+        "raw_agreement": 1.0,
+        "marginals": {
+          "absent": 6
+        }
+      },
+      "raw_agreement_including_joint_unknowns": 1.0
+    },
+    {
+      "horizon_mois": 12,
+      "regime": "contemporain",
+      "coders": {
+        "A": {
+          "n": 3,
+          "distribution": {
+            "realise": 3
+          },
+          "successes": 3,
+          "unknown": 0,
+          "lower": 1.0,
+          "upper": 1.0
+        },
+        "B": {
+          "n": 3,
+          "distribution": {
+            "realise": 3
+          },
+          "successes": 3,
+          "unknown": 0,
+          "lower": 1.0,
+          "upper": 1.0
+        }
+      },
+      "agreement_nominal": {
+        "alpha": null,
+        "reason": "zero_expected_disagreement",
+        "units": 3,
+        "coverage": 1.0,
+        "observed_disagreement": 0.0,
+        "expected_disagreement": 0.0,
+        "raw_agreement": 1.0,
+        "marginals": {
+          "realise": 6
+        }
+      },
+      "raw_agreement_including_joint_unknowns": 1.0
+    },
+    {
+      "horizon_mois": 12,
+      "regime": "retrospectif",
+      "coders": {
+        "A": {
+          "n": 3,
+          "distribution": {
+            "realise": 3
+          },
+          "successes": 3,
+          "unknown": 0,
+          "lower": 1.0,
+          "upper": 1.0
+        },
+        "B": {
+          "n": 3,
+          "distribution": {
+            "realise": 3
+          },
+          "successes": 3,
+          "unknown": 0,
+          "lower": 1.0,
+          "upper": 1.0
+        }
+      },
+      "agreement_nominal": {
+        "alpha": null,
+        "reason": "zero_expected_disagreement",
+        "units": 3,
+        "coverage": 1.0,
+        "observed_disagreement": 0.0,
+        "expected_disagreement": 0.0,
+        "raw_agreement": 1.0,
+        "marginals": {
+          "realise": 6
+        }
+      },
+      "raw_agreement_including_joint_unknowns": 1.0
+    }
+  ],
+  "E": {
+    "scope": "Trois jalons de concertation du pilote seulement",
+    "established_eligible_obligations": 0,
+    "value": null,
+    "status": "NA",
+    "reason": "Aucune obligation favorable opposable devenue exigible etablie pour ces trois jalons ; ne constitue pas un inventaire juridique de tout le projet."
+  }
+}
