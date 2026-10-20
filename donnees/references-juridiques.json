@@ -1,0 +1,27 @@
+{
+  "date_controle": "2026-10-20",
+  "article": "Code de l environnement, L.121-13",
+  "ancienne_version": {
+    "id": "LEGIARTI000006832875",
+    "periode": "2002-02-28/2010-07-14",
+    "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006832875/2009-05-28",
+    "controle": "Contenu retrouve dans le resultat indexe officiel ; ouverture directe non aboutie lors de ce controle.",
+    "texte_creation_url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000001076363",
+    "limite": "Le texte de creation ne dispense pas du controle de la version consolidee a la date du dossier."
+  },
+  "version_pilote": {
+    "id": "LEGIARTI000036671245",
+    "debut": "2018-03-04",
+    "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036671245",
+    "alias_officiel": "https://www.legifrance.gouv.fr/affichCodeArticle.do?categorieLien=cid&cidTexte=LEGITEXT000006074220&dateTexte=&idArticle=LEGIARTI000006832875",
+    "controle": "Acces direct initial 403 ; contenu et date de debut retrouves par l alias officiel redirigeant vers le meme identifiant.",
+    "limite": "L alias sans date ne doit pas etre utilise pour reconstituer la version de 2008."
+  },
+  "complement_institutionnel": {
+    "url": "https://www.debatpublic.fr/sites/default/files/2023-10/FICHE_3-5_CNDP_COMPTE_RENDUS.pdf",
+    "titre": "Quels sont les comptes rendus au public a l issue de la participation prealable ?",
+    "controle": "PDF CNDP accessible, 2 pages",
+    "limite": "Source explicative actuelle ; ne remplace pas la version applicable en 2008."
+  },
+  "portee": "Controle des references et de leur accessibilite, sans nouvelle conclusion juridique ni modification des codes."
+}

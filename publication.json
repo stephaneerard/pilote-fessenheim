@@ -1,15 +1,15 @@
 {
   "package_version": "2.0.1",
   "protocol_version": "2.0",
-  "status": "prepare_localement_non_publie",
-  "proposed_tag": "pilote-fessenheim-v2.0.1-reproductibilite",
+  "status": "instantane_avant_creation_etiquette",
+  "proposed_tag": "pilote-fessenheim-v2.0.1",
   "configured_repository_url": "https://github.com/stephaneerard/stephane-erard-cv",
-  "repository_public_visibility": "inconnu",
-  "release_repository_url": null,
+  "repository_public_visibility": "public",
+  "release_repository_url": "https://github.com/stephaneerard/pilote-fessenheim",
   "release_commit": null,
   "tag_created": false,
   "wayback": {
-    "status": "non_demande",
+    "status": "aucune_capture_confirmee_service_inaccessible",
     "captures": []
   },
   "software_heritage": {
@@ -26,5 +26,8 @@
     "software": "MIT",
     "third_party_sources": "excluded"
   },
-  "notes": "Aucun identifiant permanent invente. Le depot configure contient aussi le site general ; choisir explicitement le depot scientifique a publier avant archivage."
+  "notes": "Depot scientifique public cree ; instantane pris avant creation du tag. Aucun identifiant permanent invente. Les codes et references restent ceux de la version 2.0.",
+  "proposed_repository_url": "https://github.com/stephaneerard/pilote-fessenheim",
+  "state_scope": "Etat au scellement du paquet ; progression ulterieure suivie hors paquet dans etat-publication.json de la branche principale.",
+  "current_state_url": "https://github.com/stephaneerard/pilote-fessenheim/blob/main/etat-publication.json"
 }

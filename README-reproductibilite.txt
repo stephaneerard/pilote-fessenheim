@@ -6,6 +6,8 @@ PRÉREQUIS
 Python 3.9 ou ultérieur, bibliothèque standard uniquement.
 Vérifié localement avec Python 3.9.13. Aucun paquet à installer, aucun réseau utilisé
 par les commandes de vérification. GNU Make est facultatif.
+Le Makefile utilise python3 par défaut. Sous Windows, si seul python est disponible :
+    make verify PYTHON=python
 
 DÉMARRAGE
 Décompresser paquet-verification.zip et ouvrir un terminal à sa racine.
@@ -69,10 +71,12 @@ redistribués. Les métadonnées publiées ne valent pas publication de ces jour
 VERSION ET PUBLICATION
 Version du paquet préparé : 2.0.1 ; état des codes et résultats : 2.0 avant arbitrage.
 Lire CHANGELOG, CITATION.cff, LICENCES.txt et publication.json.
-Le dépôt configuré dans le checkout n'est pas une preuve de diffusion publique.
-Aucune étiquette, capture Wayback, archive Software Heritage ou DOI Zenodo n'est
-annoncé comme obtenu. Les statuts et champs vides sont explicites.
-L'étiquette proposée est pilote-fessenheim-v2.0.1-reproductibilite.
+Le dépôt scientifique dédié est https://github.com/stephaneerard/pilote-fessenheim.
+publication.json est l'instantané des démarches au moment du scellement, avant
+création de l'étiquette. Leur progression ultérieure est suivie dans le fichier
+etat-publication.json de la branche principale, hors de ce paquet figé.
+Aucune capture, archive ou DOI n'est annoncé comme obtenu avant confirmation.
+L'étiquette proposée est pilote-fessenheim-v2.0.1.
 Ne jamais déplacer une étiquette publiée pour corriger une version : préparer
 une nouvelle version et conserver les codes initiaux.
 
@@ -103,8 +107,21 @@ Cette commande explicite vérifie le paquet puis écrit paquet-verification.zip
 à sa racine. Elle utilise uniquement les fichiers scellés, avec ordre et dates
 ZIP fixes. Elle n'archive pas les PDF, le contexte privé, out/ ou les caches.
 Une reconstruction avec la même version de Python et zlib est déterministe.
+L'empreinte exacte du ZIP diffusé est publiée dans paquet-verification.zip.sha256,
+avec Python, zlib, taille et empreinte du manifeste dans
+paquet-verification.zip.metadata.json. Ces deux fichiers dérivés sont diffusés
+à côté du ZIP ; ils ne sont pas inclus dedans ni dans son propre scellement.
+Un ZIP reconstruit ailleurs peut avoir d'autres octets sans changer les entrées.
 
 Les empreintes sont un état figé à réviser explicitement lors d'une nouvelle
 version. Ni le vérificateur ni le fabricant ne les régénèrent pour faire passer
 un contrôle en échec. Les tests de non-régression sont dans
-donnees/fessenheim/test_verification.py.
+donnees/fessenheim/test_verification.py. Ils fonctionnent sans ZIP préexistant :
+    python donnees/fessenheim/test_verification.py
+Les fixtures sont copiées depuis les fichiers scellés, même sur un paquet juste
+décompressé. Un test fabrique sa propre archive et en contrôle l'empreinte publiée.
+
+RÉFÉRENCES JURIDIQUES
+donnees/references-juridiques.json décrit les URL officielles, l'état d'accès et
+les compléments institutionnels disponibles. Une erreur d'accès n'établit pas
+que le lien ou la version est faux. La fiche juridique originale est conservée.

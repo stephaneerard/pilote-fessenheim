@@ -1,8 +1,9 @@
 cff-version: 1.2.0
-message: "Citer le paquet de données Fessenheim, version 2.0.1 préparée localement ; aucun DOI n'est encore attribué. Les codes et résultats sont ceux du protocole 2.0 avant arbitrage."
+message: "Citer le paquet de données Fessenheim, version 2.0.1 ; aucun DOI n'est encore attribué. Les codes et résultats sont ceux du protocole 2.0 avant arbitrage."
 type: dataset
 title: "La démocratie à l'épreuve — Pilote Fessenheim, données et vérification"
 version: 2.0.1
+repository-code: "https://github.com/stephaneerard/pilote-fessenheim"
 authors:
   - family-names: "Erard"
     given-names: "Stéphane"

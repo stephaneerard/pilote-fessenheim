@@ -1,11 +1,12 @@
 # SPDX-License-Identifier: MIT
-"""Exercise the distributed ZIP as an isolated third-party download (stdlib)."""
+"""Exercise the sealed files without requiring an existing ZIP (stdlib)."""
 
 import csv
 import hashlib
 import io
 import json
 import os
+import shutil
 from pathlib import Path
 import subprocess
 import sys
@@ -27,8 +28,14 @@ class DownloadVerification(unittest.TestCase):
         self.temporary = tempfile.TemporaryDirectory()
         self.addCleanup(self.temporary.cleanup)
         self.root = Path(self.temporary.name)
-        with zipfile.ZipFile(SERIES / "paquet-verification.zip") as archive:
-            archive.extractall(self.root)
+        # A freshly unpacked release deliberately does not contain itself.
+        # Copy only the public sealed files, not private PDFs or local outputs.
+        names = [line.split("  ", 1)[1] for line in
+                 (SERIES / "MANIFEST.sha256").read_text(encoding="utf-8").splitlines() if line]
+        for name in names + ["MANIFEST.sha256"]:
+            target = self.root / name
+            target.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copyfile(SERIES / name, target)
 
     def run_cli(self, script=VERIFIER, *args, optimized=False):
         command = [sys.executable] + (["-O"] if optimized else []) + [str(self.root / script), *args]
@@ -134,6 +141,24 @@ class DownloadVerification(unittest.TestCase):
         result = self.run_cli()
         self.assertEqual(result.returncode, 1)
         self.assertIn("Chemin hors paquet", result.stderr)
+
+    def test_archive_can_be_built_and_its_published_digest_matches(self):
+        result = self.run_cli("donnees/fessenheim/fabriquer-paquet.py")
+        self.assertEqual(result.returncode, 0, result.stderr)
+        archive_path = self.root / "paquet-verification.zip"
+        checksum = (self.root / "paquet-verification.zip.sha256").read_text(encoding="utf-8").split()[0]
+        self.assertEqual(sha(archive_path.read_bytes()), checksum)
+        metadata = json.loads((self.root / "paquet-verification.zip.metadata.json").read_text(encoding="utf-8"))
+        self.assertEqual(metadata["sha256"], checksum)
+        self.assertEqual(metadata["bytes"], archive_path.stat().st_size)
+        with zipfile.ZipFile(archive_path) as archive:
+            self.assertNotIn("paquet-verification.zip", archive.namelist())
+            self.assertIsNone(archive.testzip())
+            destination = self.root / "fresh-download"
+            archive.extractall(destination)
+        checked = subprocess.run([sys.executable, str(destination / VERIFIER)],
+                                 cwd=destination, capture_output=True, text=True, timeout=30)
+        self.assertEqual(checked.returncode, 0, checked.stderr)
 
 
 if __name__ == "__main__":

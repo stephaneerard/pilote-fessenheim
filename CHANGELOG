@@ -12,6 +12,13 @@ Type : correction du logiciel et du paquet ; aucune révision de règle ni recod
 - La provenance indique modèle déclaré et horaires retrouvés ; consignes exactes,
   révision interne du modèle et fourniture exhaustive des pièces restent inconnues.
 - Citation, périmètre des licences et étapes de publication sont documentés.
+- Tests indépendants d'une archive préexistante ; fabrication et empreinte du ZIP
+  contrôlées dans une fixture autonome, y compris après décompression.
+- Le Makefile utilise python3 par défaut, avec surcharge PYTHON possible.
+- Empreinte du ZIP diffusée dans un fichier détaché, accompagnée des versions
+  Python/zlib et de l'empreinte du manifeste source.
+- Références juridiques accompagnées de l'état d'accès constaté et de sources
+  officielles complémentaires ; aucune indisponibilité n'est assimilée à un lien faux.
 - Codes A/B, suivis S A/B, registres figés, protocoles et trois références conservés.
 
 2.0 — 20 octobre 2026 — État documentaire initial avant arbitrage
